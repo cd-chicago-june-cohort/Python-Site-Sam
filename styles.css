@@ -1,0 +1,293 @@
+/*general styles*/
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    height: 880px;
+    width: 970px;
+}
+
+/*Top styles*/
+
+#top {
+    height: 520px;
+    background: rgb(18,79,121);
+}
+
+/*Header*/
+
+#header p{
+    text-align: right;
+    font-size: 12px;
+    padding: 10px 10px 0px 0px;
+    margin-right: 35px;
+    font-weight: lighter;
+}
+
+.white-text {
+    color: white;
+}
+
+.yellow-underline {
+    color: rgb(210,178,5);
+    text-decoration: underline;
+}
+
+#header img {
+    height: 120px;
+    width: 375px;
+    display: inline-block;
+    margin-left: 30px;
+    vertical-align: top;
+}
+
+#search-bar {
+    width: 270px;
+    height: 64px;
+    background: rgb(68,68,68);
+    border-radius: 7px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 0px 0px 280px;
+    box-shadow: 2px 2px 3px rgb(28,28,28);
+}
+
+#search {
+    height: 28px;
+    width: 145px;
+    background: white;
+    margin: 15px 7px 0px 30px;
+    display: inline-block;
+    border-style: inset;
+    border-width: normal;
+    text-align: center;
+    font-size: 12px;
+    font-weight: lighter;
+    color: rgb(209,209,209);
+    line-height: 28px;
+    vertical-align: top;
+}
+
+#go {
+    height: 24px;
+    width: 32px;
+    border-radius: 6px;
+    border-style: outset;
+    background: rgb(18,79,121);
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 17px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: lighter;
+    color: rgb(209,209,209);
+    line-height: 24px;
+}
+
+/*Navigation Menu styles*/
+
+#menu {
+    width: 770px; 
+    height: 50px;
+    background: rgb(45,122,176);
+    border-radius: 6px;
+    margin: 10px 0px 0px 88px;
+    box-shadow: 2px 2px 3px rgb(28,28,28);
+    color: white;
+    line-height: 35px;
+    padding-left: 70px;
+}
+
+#menu p{
+    display: inline-block;
+    font-size: 18px;
+}
+
+/*First Text Section Styles*/
+
+#bluetextbox-1{
+    width: 200px;
+    height: 225px;
+    display: inline-block;
+    vertical-align: top;
+    list-style-image: url(bullet.png);
+    text-align: center;
+    list-style-position: inside;
+    text-decoration: underline;
+    padding: 30px 0px 0px 90px;
+    color: white;
+}
+
+#bluetextbox-1 li{
+    margin-bottom: 10px;
+}
+
+#bluetextbox-2 {
+    width: 600px;
+    height: 235px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    padding-top: 10px;
+}
+
+#bluetextbox-2 ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+#bluetextbox-2 li {
+    color: rgb(243,206,6);
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+#bluetextbox-2 p{
+    font-size: 12px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+#zen p{
+    width: 800px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    margin-left: 220px;
+    padding-top: 2px;
+}
+
+#dark-blue-line {
+    height: 3px;
+    background: rgb(13,55,85);
+}
+
+/* Middle section starts here*/
+
+#middle {
+    height: 235px;
+    background: white;
+}
+
+#sideline{
+    height: 230px;
+    width: 118px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*Both side styles*/
+
+.info p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.info-line {
+    height: 4px;
+    background: rgb(101,166,217);
+    margin: 10px 15px 10px 10px;
+}
+
+.info li span{
+    color: rgb(129,182,224);
+}
+
+.info li {
+    margin: 5px 0px;
+    text-align: center;
+}
+
+h6 {
+    text-align: center;
+    font-size: 16px;
+}
+
+/*left side styles*/
+
+#info-1 {
+    width: 390px;
+    height: 235px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#list-and-p-1{
+    width: 330px;
+    height: 200px;
+    padding-right: 10px;
+}
+
+
+#list-and-p-1 p {
+    margin: 5px 0px 2px 0px;
+}
+
+#list-and-p-1 ul{
+    text-align: center;
+    list-style-position: outside;
+    list-style-type: square;
+    color: black;
+}
+
+/* Right side styles*/
+
+#info-2 {
+    width: 390px;
+    height: 235px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#list-and-p-2{
+    width: 350px;
+    height: 200px;
+    padding-left: 10px;
+}
+
+#list-and-p-2 p {
+    margin: 5px 0px 2px 0px;
+}
+
+#pypi {
+    font-size: 12px;
+    color: rgb(129,182,224);
+}
+
+/*Bottom Styles begin here*/
+
+#bottom {
+    height: 120px;
+    background: linear-gradient(rgb(20,81,123), rgb(26,117,178));
+    text-align: center;
+    font-size: 10px;
+    color: rgb(99,164,214);
+}
+
+#top-writing {
+    height: 30px;
+    padding-top: 70px;
+    text-align: center;
+    vertical-align: top;
+}
+
+#top-writing p{
+    display: inline-block;
+    margin-bottom: 0px;
+    font-size: 16px;
+    margin: 0px 25px;
+}
+
+
+
+
+
